@@ -1,0 +1,44 @@
+
+#main {
+    font-size: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.col {
+    display: inline-block;
+    border: 1px black solid;
+    border-width: 1px 1px 0px 0px;
+    box-sizing: border-box;
+    position: relative;
+}
+.col:first-of-type {
+    border-left: 1px black solid;
+}
+.row:last-child .col {
+    border-bottom: 1px black solid;
+}
+.svg-inline--fa.my {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+#main p, #main table {
+    font-size: initial;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+#main table {
+    margin-bottom: 10px;
+}
